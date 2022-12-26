@@ -570,7 +570,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
+  active: livere
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -632,12 +632,12 @@ valine:
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: # <your_uid>
+livere_uid: MTAyMC81NzgyMS8zNDI4NA
 
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: FengZhiheng  # GitHub repo owner
   repo: FengZhiheng.github.io # Repository name to store issues
   client_id: 9bad5f6ce5fb909b931c # GitHub Application Client ID
