@@ -570,7 +570,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: livere
+  active: 
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -632,7 +632,7 @@ valine:
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC81NzgyMS8zNDI4NA
+livere_uid: # <your_uid>  MTAyMC81NzgyMS8zNDI4NA
 
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
