@@ -59,7 +59,7 @@ footer:
     # Icon name in Font Awesome. See: https://fontawesome.com/icons
     name: fa fa-heart
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#ff0000"
 
@@ -67,7 +67,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -118,17 +118,13 @@ darkmode: true
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
-  seeking: /WillYOUMarryMe/ || fa fa-user
+  seeking: /WillYOUMarryMe/ || fa fa-heart
   # tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   # archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-
-
-
-  
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
