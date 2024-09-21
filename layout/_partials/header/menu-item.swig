@@ -7,8 +7,12 @@
   <li class="menu-item menu-item-{{ itemName | replace(' ', '-') }}">
 
     {%- set menuIcon = '' %}
-    {%- if theme.menu_settings.icons %}
-      {%- set menuIcon = '<i class="' + value.split('||')[1] | trim + ' fa-fw"></i>' %}
+    {%- if theme.menu_settings.icons %}      
+      {% if itemName == 'seeking' %}
+        {%- set menuIcon = '<i class="' + value.split('||')[1] | trim + ' fa-fw icon-animate"></i>' %}
+      {% else %}
+        {%- set menuIcon = '<i class="' + value.split('||')[1] | trim + ' fa-fw"></i>' %}
+      {%- endif %}
     {%- endif %}
     {%- set menuText = __('menu.' + name) | replace('menu.', '') %}
 
